@@ -90,6 +90,12 @@ u{
     padding: 20px;
     border: white solid 1px;
 }
+.b7_1,.b8_1,.b8_2,.b9_1,.b9_2,.b9_3,.b10_1,.b10_2,.b11_1,.b11_2,.b11_3,.b12_1,.b12_2,.b12_3,.b13_1,.b13_2,.b13_3,.b13_4{
+    background-color: rgb(255, 188, 107);
+    border:red solid 2px ;
+    width: 160px;
+    text-align: left;
+}
 .b7{
     background-color: yellow;
     padding: 10px;   
@@ -97,10 +103,8 @@ u{
     border: white solid 1px;
 }
 .b7_1{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: right;
+    margin: 3px; 
 }
 .b8{
     background-color: rgb(108, 255, 169);
@@ -109,16 +113,12 @@ u{
     border: white solid 1px;
 }
 .b8_1{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: right;
+    margin: 3px; 
 }
 .b8_2{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float:  right;
+    margin: 3px;
 }
 .b9{
     background-color: rgb(191, 147, 248);
@@ -127,22 +127,16 @@ u{
     border: white solid 1px;
 }
 .b9_1{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: right;
+    margin: 3px; 
 }
 .b9_2{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: right;
+    margin: 3px; 
 }
 .b9_3{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: right;
+    margin: 3px; 
 }
 .b10{
     background-color: rgb(108, 255, 169);
@@ -151,17 +145,11 @@ u{
     border: white solid 1px;
 }
 .b10_1{
-   
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: left;
 }
 .b10_2{
-    background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
+    float: right;
+    margin: 3px; 
 }
 .b11{
     background-color: rgb(108, 255, 169);
@@ -170,22 +158,8 @@ u{
     border: white solid 1px;
 }
 .b11_1{
-     background-color: rgb(255, 188, 107);
-    border:red solid 2px ;
-    width: 160px;
-    text-align: left;
-}
-.b11_2{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
-}
-.b11_3{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
+    
+    float: right;
 }
 .b12{
     background-color: rgb(108, 255, 169);
@@ -193,23 +167,16 @@ u{
     width: auto;
     border: white solid 1px;
 }
-.b12_1{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
-}
+
 .b12_2{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
+    
+   float: right;
+   margin: 1px;
 }
 .b12_3{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
+    
+   float: right;
+   margin: 1px;
 }
 .b13{
     background-color: rgb(108, 255, 169);
@@ -217,29 +184,14 @@ u{
     width: auto;
     border: white solid 1px;
 }
-.b13_1{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
-}
-.b13_2{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
-}
+
 .b13_3{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
+   float: right;
+   margin: 1px;
 }
 .b13_4{
-    background-color: rgb(255, 188, 107);
-   border:red solid 2px ;
-   width: 160px;
-   text-align: left;
+   float: right;
+   margin: 1px;
 }
 .b14{
     background-color: rgb(62, 248, 233);
@@ -247,13 +199,16 @@ u{
     width: auto;
     border: white solid 1px;
 }
+
 .b14_1{
     background-color: rgb(255, 255, 255);
     width: 260px;
     padding:5px ;
     height: 15px;
     text-align: center;
+    margin: 0 auto;
 }
+
 .b15{
     background-color: rgb(62, 195, 248);
     padding: 10px;   
@@ -268,7 +223,7 @@ u{
 }
 .b17{
     background-color: rgb(17, 135, 182);
-    padding: 10px;   
+    padding: 18px;   
     width: auto;
     border: white solid 1px;
 }
@@ -277,13 +232,17 @@ u{
     border:rgb(255, 255, 255) solid 2px ;
     width: 940px;
     text-align: left;
+    margin: 3px;
+    
 }
 .b18_1{
     background-color: rgb(149, 123, 7);
     border:rgb(255, 255, 255) solid 1px ;
     width: 400px;
     text-align: left;
+    margin: 3px;
 }
+
 .borde{
     border: solid white 2px;
     width: 410px;
@@ -296,13 +255,13 @@ u{
     border: black solid 5px;
     width: 400px;
     height: 50px;
-    
+    float: left ;
 }
 .b20_2{
     background-color: rgb(255, 208, 174);
     border: black solid 5px;
-    width: 530px;
-    height: 50px;
+    width: 68.29em;
+    height: 50px;  
 }
 .borde_principal{
     border: solid black 1.5px;
